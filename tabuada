@@ -1,24 +1,18 @@
-programa {
-  funcao inicio() {
-    
-     inteiro valor
+programa 
+{
+	funcao inicio() 
+	{
+		inteiro numero, resultado, contador
+		
+		escreva("Informe um n�mero para ver sua tabuada: ")
+		leia(numero)
 
-     escreva("qual tabuada você gostariade ver: \n")
-     leia(valor)
-
-      limpa()
-      escreva(valor, "x 01 = ", 1*valor, "\n")
-      escreva(valor, "x 02 = ", 2*valor, "\n")
-      escreva(valor, "x 03 = ", 3*valor, "\n")
-      escreva(valor, "x 04 = ", 4*valor, "\n")
-      escreva(valor, "x 05 = ", 5*valor, "\n")
-      escreva(valor, "x 06 = ", 6*valor, "\n")
-      escreva(valor, "x 07 = ", 7*valor, "\n")
-      escreva(valor, "x 08 = ", 8*valor, "\n")
-      escreva(valor, "x 09 = ", 9*valor, "\n")
-      escreva(valor, "x 10 = ", 10*valor, "\n")
-             
-        
-  }
+		limpa()
+		
+		para (contador = 1; contador <= 10; contador++) 
+		{
+			resultado = numero * contador 
+			escreva (numero, " X ", contador, " = ", resultado , "\n")
+		}
+	}
 }
-Footer
