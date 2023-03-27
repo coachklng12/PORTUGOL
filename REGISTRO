@@ -53,13 +53,40 @@ programa {
            escreva(".|            CLIENTE CADASTROS          |.\n")
            escreva(".ᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖ.\n\n")
 
-           escreva("N 01 -", nome_cliente, "- idade: ", idade, "\n")
+           escreva("Nº -", nome_cliente, "- idade: ", idade, "\n")
 
-          escreva(".	ᚓ	ᚓ	ᚓ	ᚓ	ᚓ	ᚓ	ᚓ	ᚓ	ᚓ	ᚓ	ᚓ	ᚓ	ᚓ	ᚓ\n")
+          escreva(".	🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰\n")
           Util.aguarde(5000) // Aguarda 05 Segundos
           inicio()
        pare
 
+      }
+
+      caso "3":
+      {
+        limpa()
+        escreva("Saindo do sistema em 05 segundos . . . ")
+        Util.aguarde(1000)
+
+        limpa()
+        escreva("Saindo do sistema em 04 segundos . . . ")
+        Util.aguarde(1000)
+        
+        limpa()
+        escreva("Saindo do sistema em 03 segundos . . . ")
+        Util.aguarde(1000)
+
+        limpa()
+        escreva("Saindo do sistema em 02 segundos . . . ")
+        Util.aguarde(1000)
+
+        limpa()
+        escreva("Saindo do sistema em 01 segundos . . . ")
+        Util.aguarde(1000)
+
+        limpa()
+        escreva("Até a proxima!! \n\n\n")
+        pare
       }
 
 
