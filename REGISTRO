@@ -3,7 +3,7 @@ programa {
     inclua biblioteca Util
 
     cadeia opcao, nome_cliente[8],
-    inteiro idade[8] qunt = 0, n
+    inteiro idade[8] quant = 0, n
 
 
   funcao inicio(){
