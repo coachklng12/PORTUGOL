@@ -2,8 +2,8 @@ programa {
 
     inclua biblioteca Util
 
-    cadeia opcao, nome_cliente
-    inteiro idade
+    cadeia opcao, nome_cliente[8],
+    inteiro idade[8] qunt = 0, n
 
 
   funcao inicio(){
@@ -26,14 +26,14 @@ programa {
       {
          limpa()
          escreva("Informe o nome do cliente:\n")
-         leia(nome_cliente)
+         leia(nome_completo[quant])
 
 
          limpa()
          //Exibe mensagem do usuario cadastrado com sucesso
-         escreva("Qual a idade do(a) cliente ", nome_cliente, ":\n")
-         leia(idade)
-
+         escreva("Qual a idade do(a) cliente ", nome_completo[quant], ":\n")
+         leia(idade[quant])
+        quant++
          limpa()
          escreva("Usuário cadastrado com sucesso!")
          Util.aguarde(3000)
