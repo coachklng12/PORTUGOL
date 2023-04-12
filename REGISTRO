@@ -8,9 +8,9 @@ programa {
   funcao inicio() 
   {
     limpa()
-    escreva(".******************************************.\n")
-    escreva("|            SISTEMA DE CADASTRO           |\n")
-    escreva(".******************************************.\n")
+    escreva(".==========================================.\n")
+    escreva("|            COACH REGISTRO                |\n")
+    escreva(".==========================================.\n")
 
     escreva(" 1 - Cadastrar no cliente\n")
     escreva(" 2 - Visualizar clientes cadastrados\n")
